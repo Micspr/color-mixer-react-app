@@ -44,15 +44,15 @@ class App extends Component {
           <div className="row">
             <div className="col-3">
               <h2 className="h4 text-center mb-4">Colors</h2>
-              <ColorList colors={ this.state.colors } handleToggleColorSelection={ this.toggleColorSelection } />
+              <ColorList/>
             </div>
             <div className="col">
               <h2 className="h4 text-center mb-4">Mix Result</h2>
-              <ColorMixer colors={ this.state.colors } />
+              <ColorMixer/>
             </div>
             <div className="col-3">
               <h2 className="h4 text-center mb-4">Add a Color</h2>
-              <ColorForm handleAddNewColor={ this.addNewColor } />
+              <ColorForm/>
             </div>
           </div>
         </div>
